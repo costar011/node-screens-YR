@@ -1,0 +1,27 @@
+@import "./reset.css";
+
+body {
+  overflow: hidden;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+}
+
+.app .app__screen .app__top {
+  width: 100%;
+  height: 5vh;
+
+  background-color: burlywood;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.app .app__screen .app__top .app__left {
+  width: 100px;
+  height: 100vh;
+
+  background-color: cornflowerblue;
+}
